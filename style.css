@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #F9D090;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+  }
+  
+  img.avatar{
+    border-radius: 50%;
+    width: 186px;
+    height: 180px;
+    padding: 3.7px;
+    border: #8B2C18 solid 4px;
+  } 
+  
+  img.logos {
+    width: 16px;
+    margin-right: 4px;
+  
+  }
+  
+  .username {
+    font-weight: 400;
+    opacity: 0.8;
+    font-size: 18px;
+    color: #00082F;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #00082F;
+  }
+  
+  ul {
+  list-style: none;
+  margin: 48px 0;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  ul li a {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    background: #AD4B16;
+    font-size: 14px;
+  
+    margin-bottom: 16px;
+    border-radius: 6px;
+  
+    transition: background 400ms;
+  }
+  
+  ul li a:hover {
+    background: #8B2C18;
+  }
+  
+  footer {
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.6;
+    transition: opacity 400ms;
+    color: #00082F;
+  }
+  
+  footer a {
+    color: #00082F;
+  }
+  
+  footer:hover {
+    opacity: 1;
+    color: #00082F;
+  }
+
+  .rodap{
+    width: 100px;
+  }
